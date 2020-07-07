@@ -1,3 +1,4 @@
+@import url(../../static/css/normalize.css);
 .fylo__storagebar {
   display: flex;
   justify-content: space-between;
@@ -15,9 +16,11 @@
     font-weight: bold; }
 
 .fylo {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  gap: 25px; }
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  align-items: center;
+  margin-top: 25vh; }
   .fylo__function {
     width: 325px;
     height: 200px;
@@ -83,8 +86,7 @@
   --VeryDarkBlue: hsl(229, 57%, 11%); }
 
 body {
-  margin: 25vh 0;
-  padding: 0 1.7857rem;
+  background-size: 100vh;
   font-size: 14px;
   font-family: "Raleway", sans-serif;
   background-image: url(../images/bg-mobile.png);
