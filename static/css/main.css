@@ -1,0 +1,99 @@
+.fylo__storagebar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 32px;
+  font-weight: bold; }
+.fylo__use-storagebar {
+  margin: 0 32px;
+  background-color: var(--VeryDarkBlue);
+  height: 20px;
+  border-radius: 25px; }
+.fylo__use-p {
+  margin: 35px 45px;
+  color: var(--PaleBlue); }
+  .fylo__use-p span {
+    font-weight: bold; }
+
+.fylo {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 25px; }
+  .fylo__function {
+    width: 325px;
+    height: 200px;
+    background-color: var(--DarkBlue);
+    border-radius: 10px;
+    border-top-right-radius: 100px; }
+    .fylo__function-logo {
+      margin: 40px 103px 40px 40px;
+      background-image: url(../images/logo.svg);
+      background-repeat: no-repeat;
+      height: 40px; }
+    .fylo__function-action {
+      width: auto;
+      height: 50px;
+      display: flex;
+      margin-left: 40px; }
+      .fylo__function-action-document {
+        background-color: var(--VeryDarkBlue);
+        border-radius: 10px;
+        display: block;
+        width: 50px;
+        height: 100%;
+        margin-right: 15px;
+        cursor: pointer; }
+        .fylo__function-action-document img {
+          margin-top: 12px;
+          margin-left: 13px; }
+      .fylo__function-action-folder {
+        background-color: var(--VeryDarkBlue);
+        border-radius: 10px;
+        display: block;
+        width: 50px;
+        height: 100%;
+        margin-right: 15px;
+        cursor: pointer; }
+        .fylo__function-action-folder img {
+          margin-top: 12px;
+          margin-left: 13px; }
+      .fylo__function-action-upload {
+        background-color: var(--VeryDarkBlue);
+        border-radius: 10px;
+        display: block;
+        width: 50px;
+        height: 100%;
+        margin-right: 15px;
+        cursor: pointer; }
+        .fylo__function-action-upload img {
+          margin-top: 12px;
+          margin-left: 13px; }
+  .fylo__use {
+    width: 325px;
+    height: 200px;
+    background-color: var(--DarkBlue);
+    border-radius: 10px;
+    color: var(--PaleBlue); }
+
+:root {
+  --Gradient: hsl(6, 100%, 80%);
+  --Gradient2:hsl(335, 100%, 65%);
+  --PaleBlue: hsl(243, 100%, 93%);
+  --GrayishBlue: hsl(229, 7%, 55%);
+  --DarkBlue: hsl(228, 56%, 26%);
+  --VeryDarkBlue: hsl(229, 57%, 11%); }
+
+body {
+  margin: 25vh 0;
+  padding: 0 1.7857rem;
+  font-size: 14px;
+  font-family: "Raleway", sans-serif;
+  background-image: url(../images/bg-mobile.png);
+  background-repeat: no-repeat; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+  .attribution a {
+    color: #3e52a3; }
+
+/*# sourceMappingURL=main.css.map */
